@@ -28,10 +28,6 @@ import lombok.extern.slf4j.Slf4j;
 public class CommonService<T> {
 	@Autowired
 	private BaseDAO baseDAO;
-
-//	@Autowired
-//	SqlSessionFactory sqlSessionFactory;
-
 	@Autowired
 	private BuildSQLHelper buildSQLHelper;
 
